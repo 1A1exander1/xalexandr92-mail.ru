@@ -1,0 +1,110 @@
+.me
+    background-color: $top-footer-background
+    height: 30vh
+    background-position: center
+    
+    text-align: center
+    &-content
+        h2
+            padding: none
+            
+            a
+                
+                color: $menu-background
+                font-size: $skills-heading
+                font-weight: 900
+                letter-spacing: 18px
+                text-transform: uppercase
+                text-decoration: none
+        p 
+            background-color: lighten( $top-footer-background, 15%)
+            text-align: justify
+            max-width: 80vh
+            margin: 0 auto
+            padding: 10px
+            position: relative
+            bottom: 34px
+            color: $heading-footer
+            font-family: $main-font
+            font-size: 18px
+            font-weight: 600
+
+.work
+    background-color: $menu-background
+    .container
+        h2 
+            text-align: center
+            color: $skills-text-color
+            font-size: $skills-heading
+            font-weight: 900
+            letter-spacing: 18px
+            text-transform: uppercase
+            text-decoration: none
+.work-home
+    grid-template-columns: repeat(2, 1fr)
+    grid-template-rows: repeat(2, 1fr)
+    grid-gap: 20px
+.work-item
+    text-decoration: none
+    grid-template-rows: 1fr  1fr
+    overflow: hidden
+    border: 5px solid $main-color
+    background-color: $main-color
+    color: $heading-footer
+    &-img
+        height: 270px
+        background-size: cover
+        background-position: center
+        border: 1px solid $main-color
+        padding: 5px
+        background-color: $top-footer-background
+    &-content
+        grid-template-rows: repeat(3, 1fr)
+        text-align: center
+        align-self: center
+        background-color: lighten( $main-color, 15%)
+        min-height: 35vh
+      
+            
+        
+        h3 
+            font-size: 18px
+            font-weight: 800
+            letter-spacing: 12px
+            text-transform: uppercase
+            position: relative
+            bottom: -10px
+            color: $main-footer-background
+           
+            
+        p 
+            margin: 0 auto
+            max-width: 38vh
+            font-family: $main-font
+            font-size: 16px
+            font-weight: 600
+            padding-right: 30px
+        a
+            align-self: center
+            padding: 20px 30px
+            max-width: 30vh
+            max-height: 10vh
+            margin: 0 auto
+            background-color: $main-footer-background
+            border: none
+            border-radius: 2px
+            color: #feffff
+            text-transform: uppercase
+            text-align: center
+            font-size: 18px
+            font-family: $secondary-font
+            text-decoration: none
+            cursor: pointer
+            position: relative
+            top: -10px
+            &:hover
+                background-color: $hover-color
+                color: $main-footer-background
+            
+  
+        

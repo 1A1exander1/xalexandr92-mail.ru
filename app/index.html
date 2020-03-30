@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+
+	<title>CSS Grid Real Example</title>
+	<meta name="description" content="CSS Grid Real Example" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+
+<body>
+	<header class="nav">
+		<div class="container grid">
+			<div class="items">
+				<img src="img/logo.png" alt=" logo" />
+			</div>
+			<div class="items">
+				<ul class="menu grid">
+					<li class="menu__item"><a href="#" name="home">home</a></li>
+					<li class="menu__item"><a href="#me">about me</a></li>
+					<li class="menu__item"><a href="#works">my works</a></li>
+					<li class="menu__item"><a href="#skills">skills</a></li>
+					<li class="menu__item"><a href="#contact">contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<section class="banner grid" style="background-image: url(img/banner.png);">
+		<h1>frontend-developer</h1>
+	</section>
+	<div></div>
+	<section class="me grid">
+		<div class="me-content grid">
+			<h2><a href="#home" name="me">about me</a></h2>
+			<p>
+				Меня завут Шаблинский Александр, я занимаюсь версткой сайтов. Закончил
+				педагогический колледж в г. Новозыбков брянская обл. по специальности
+				учитель-информатики. Версткой занимаюсь около двух лет.
+			</p>
+		</div>
+	</section>
+	<section class="work">
+		<div class="container grid">
+			<h2>My works</h2>
+			<div class="work-home grid">
+				<div class="work-item grid">
+					<span class="work-item-img" style="background-image: url(img/avio.PNG);"></span>
+					<span class="work-item-content grid">
+						<h3>Сайт авиакомпании</h3>
+						<p>
+							gulp, scss, slick-слайдер,flexbox-css, вложенность блоков, БЭМ, smart-grid
+						</p>
+						<a href="https://github.com/1A1exander1/projectOne"> ссылка</a>
+					</span>
+
+				</div>
+				<div class="work-item grid">
+					<span class="work-item-img" style="background-image: url(img/duplex.PNG);"></span>
+					<span class="work-item-content grid">
+						<h3>Сайт компании duplex</h3>
+						<p>
+							gulp, scss, slick-слайдер,flexbox-css, вложенность блоков, БЭМ
+						</p>
+						<a href="https://github.com/1A1exander1/duplex"> ссылка</a>
+					</span>
+
+				</div>
+				<div class="work-item grid">
+					<span class="work-item-img" style="background-image: url(img/lucid.PNG);"></span>
+					<span class="work-item-content grid">
+						<h3>Сайт компании lucid</h3>
+						<p>
+							gulp, scss, slick-слайдер, flexbox-css, вложенность блоков, БЭМ, svg </p>
+						<a href="https://github.com/1A1exander1/projectTwo"> ссылка</a>
+					</span>
+
+				</div>
+				<div class="work-item grid">
+					<span class="work-item-img" style="background-image: url(img/time.PNG);"></span>
+					<span class="work-item-content grid">
+						<h3>Сайт заглушка</h3>
+						<p>
+							css, js, bootstrap, flexbox-css, вложенность блоков, БЭМ
+						</p>
+						<a href="https://github.com/1A1exander1/stub"> ссылка</a>
+					</span>
+
+				</div>
+	</section>
+	<link rel="stylesheet" href="css/main.min.css" />
+	<script src="js/scripts.min.js"></script>
+</body>
+
+</html>
